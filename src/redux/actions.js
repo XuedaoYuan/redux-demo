@@ -12,6 +12,8 @@ export const addMore = payload => ({
 // 异步action
 export const addAsync = function() {
 	return (dispatch, getState) => {
+
+		// ajax.then(res => {dispatch})
 		// 异步操作
 		setTimeout(() => {
 			dispatch(addMore({ n: 10 }))

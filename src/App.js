@@ -1,25 +1,19 @@
 import React, { Component } from 'react'
 import Hello from './components/Hello'
+// import BasicExample from './layout/BasicExample'
+// import PreventingTransitions from './layout/PreventingTransitions'
+import SideBar from './layout/SideBar'
+import RouteConfig from './layout/RouteConfig'
 class App extends Component {
 	render() {
 		return (
 			<div className="App">
 				<h1>App</h1>
 				<Hello />
-				{/*  <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header> */}
+				{/* <PreventingTransitions /> */}
+				{/* <BasicExample /> */}
+				{/* <SideBar /> */}
+				{/* <RouteConfig /> */}
 			</div>
 		)
 	}

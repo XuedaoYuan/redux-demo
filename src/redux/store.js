@@ -12,7 +12,7 @@ const store = createStore(
 	)
 )
 
-function addAsync(num) {
+/* function addAsync(num) {
 	return (dispatch, getState) => {
 		dispatch({ type: 'YXD/ADD_ONE' })
 		setTimeout(() => {
@@ -23,7 +23,7 @@ function addAsync(num) {
 			})
 		}, 2000)
 	}
-}
+} */
 
 // store.dispatch(addAsync(20))
 
